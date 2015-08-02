@@ -1,0 +1,15 @@
+{% extends "truck_queue/base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Registration is closed" %}{% endblock %}
+
+{% block body_block %}
+
+      <div class="starter-template">
+        <h1>Registration Closed</h1>
+        <p class="lead">
+{% trans "Sorry, but registration is closed at this moment. Come back later." %}
+        </p>
+      </div>
+
+{% endblock %}

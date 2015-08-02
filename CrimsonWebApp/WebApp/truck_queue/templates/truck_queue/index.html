@@ -1,0 +1,21 @@
+{% extends 'truck_queue/base.html' %}
+{% block title %}Truck Queue{% endblock %}
+
+{% block body_block %}
+
+    <div class="container">
+
+        <h1>Welcome to Truck Queue!</h1>
+
+        <h2>Today's truck: <br/>{{ truck.truck_name }} </h2>
+        <p>{{ truck.truck_description }}</p>
+        
+        <br/>
+
+        <h2>{{ truck.truck_name}}'s status: It's here!</h2>
+
+        <br/><br/>
+    </div>
+
+
+{% endblock %}

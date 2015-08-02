@@ -1,0 +1,116 @@
+{% extends 'truck_queue/base.html' %}
+{% block title %}Truck Queue{% endblock %}
+
+{% load staticfiles %}
+
+{% block body_block %}
+
+    <h2 class="featurette-heading">Today's truck:
+        <span class="text-muted">Evil Weiner</span>
+        <span class="text-muted pull-right">It's here!</span>
+        <span class="pull-right">Status: </span>
+    </h2>
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item">
+                <img class="first-slide" src="{% static 'images/chiLantro.jpg' %}" alt="ChiLantro">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Chi'Lantro.</h1>
+                        <p>Home of the original kimchi fries. Mondays 11:30am-1:00pm</p>
+                        <p><a class="btn btn-lg btn-primary" href="shop.html" role="button">Order Today's Truck</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item active">
+                <img class="second-slide" src="{% static 'images/evilweiner.jpg' %}" alt="Evil Weiner">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Evil Weiner.</h1>
+                        <p>Tuesdays 11:30am-1:00pm.</p>
+                        <p><a class="btn btn-lg btn-primary" href="shop.html" role="button">Order Today's Truck</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="third-slide" src="{% static 'images/pacific.png' %}" alt="Be More Pacific">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Be More Pacific.</h1>
+                        <p>Wednesdays 11:30am-1:00pm</p>
+                        <p><a class="btn btn-lg btn-primary" href="shop.html" role="button">Order Today's Truck</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="third-slide" src="{% static 'images/peached.jpg' %}" alt="Peached Tortilla">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>The Peached Tortilla.</h1>
+                        <p>Thursdays 11:30am-1:00pm</p>
+                        <p><a class="btn btn-lg btn-primary" href="shop.html" role="button">Order Today's Truck</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="third-slide" src="{% static 'images/jack.jpg' %}" alt="Jack Hates Coffee">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Jack Hates Coffee.</h1>
+                        <p>Every day, 8:00am - 10:30am</p>
+                        <p><a class="btn btn-lg btn-primary" href="shop.html" role="button">Order Today's Truck</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="third-slide" src="{% static 'images/keith.jpg' %}" alt="Keith's BBQ">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Keith's BBQ.</h1>
+                        <p>Fridays 11:30am-1:00pm.</p>
+                        <p><a class="btn btn-lg btn-primary" href="shop.html" role="button">Order Today's Truck</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div><!-- /.carousel -->
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2015 Truck Queue, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+{% endblock %}

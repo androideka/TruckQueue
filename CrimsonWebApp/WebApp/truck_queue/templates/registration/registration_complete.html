@@ -1,0 +1,13 @@
+{% extends "truck_queue/base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Activation email sent" %}{% endblock %}
+
+{% block body_block %}
+    <div class="starter-template">
+        <h1>Registration Complete</h1>
+        <p class="lead">
+            {% trans "Please check your email to complete the registration process." %}
+        </p>
+    </div>
+{% endblock %}

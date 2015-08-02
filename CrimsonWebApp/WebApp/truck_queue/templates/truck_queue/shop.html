@@ -1,0 +1,118 @@
+{% extends 'truck_queue/base.html' %}
+{% block title %}Today's Menu{% endblock %}
+{% load staticfiles %}
+
+{% block body_block %}
+        <div class="row">
+            <div class="col-md-9">
+                <h1 class="text-center">Evil Wiener</h1>
+                <hr class="divider">
+                 <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="slide-image" src="{% static 'images/w1.jpg' %}" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="{% static 'images/w2.jpg' %}" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="{% static 'images/w3.jpg' %}" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="{% static 'images/w4.jpg' %}" alt="">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h1 class="text-center">Entrees</h1>
+                      <hr class="divider">
+
+                <div class="row">
+                    {% for entree in entrees %}     
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <h4 class="pull-right">${{entree.price}}</h4>
+                                <h4><a>{{entree.name}}</a>
+                                </h4>
+                                <p>{{entree.description}}</p>
+                                <button type="button" class="btn btn-primary pull-right" id="item-{{entree.id}}" name="{{entree.name}}" value="{{entree.price}}">Add</button>                                
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <h1 class=" text-center">Sides</h1>
+                      <hr class="divider">
+
+                <div class="row">
+                    {% for side in sides %}     
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <h4 class="pull-right">${{side.price}}</h4>
+                                <h4><a>{{side.name}}</a>
+                                </h4>
+                                <p>{{side.description}}</p>
+                                <button type="button" class="btn btn-primary pull-right" id="item-{{side.id}}" name="{{side.name}}" value="{{side.price}}">Add</button>                                
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="col-md-3 fixed">
+                <div class="cart">
+                    <h1>My Cart:</h1>
+                    <table id="myOrder" style="width:290px">
+
+                    </table>
+                  <div class="low">  <p class="lead">Total Price: $<span id="total-price">0.00</span></p> <br> <br>
+                      <a href="/truck_queue/order_confirm">
+                      <button type="button" class="btn btn-primary low" id="order-submit">Submit Order</button>
+                      </a>
+                      </div>
+                </div>
+            </div>
+        </div>
+{% endblock %}
