@@ -1,0 +1,581 @@
+t 425bd31c5a7ed0612123a661f6d9bddcb9ac4f95
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Fri Jul 31 11:50:38 2015 -0500
+
+    Fix spacing...
+
+commit 20a28d1eafde105794d22e562cb6a73adaf2e11e
+Merge: 766f771 a1b9288
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Fri Jul 31 11:47:33 2015 -0500
+
+    Merge branch 'master' of ssh://repo.advisory.com:7999/crimu/crimsonu.08-team1
+
+commit 766f77134e92b0121e08ef20463fac3ebf08a45f
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Fri Jul 31 11:47:23 2015 -0500
+
+    Clean up code
+
+commit a1b928800678887341a27709d1212f841a0a0945
+Author: barmorec <barmorec@advisory.com>
+Date:   Fri Jul 31 11:26:30 2015 -0500
+
+    Updating page
+
+commit dd4b4655a3418b4135ae15ca54e59bb986565f8e
+Merge: 136b783 938c02a
+Author: Young, Connor <YoungCo@advisory.com>
+Date:   Fri Jul 31 11:16:16 2015 -0500
+
+    Merge branch 'master' of https://repo.advisory.com/scm/crimu/crimsonu.08-team1
+
+commit 136b783d5a6b9fafb269605ecbe298d602d25144
+Author: Young, Connor <YoungCo@advisory.com>
+Date:   Fri Jul 31 11:15:31 2015 -0500
+
+    no message
+
+commit 938c02acdbc827d3a7b1a043cbe22c61c3af58fd
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Fri Jul 31 11:05:55 2015 -0500
+
+    Change email text and link
+
+commit 9b41fcd7589a62f7e650dc1f1cc334ce973a3b39
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Fri Jul 31 10:25:40 2015 -0500
+
+    Remove extra link in nav bar, remove list_menu
+
+commit 6fa8a6a3864a7f377c03a47cdc8f75adcb5f9978
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Fri Jul 31 10:22:23 2015 -0500
+
+    Home page fixes
+
+commit 2fcde077072073401f17ec9ea907d4654475a857
+Merge: 8b4b004 465fec3
+Author: Young, Connor <YoungCo@advisory.com>
+Date:   Fri Jul 31 10:04:14 2015 -0500
+
+    Merge branch 'master' of https://repo.advisory.com/scm/crimu/crimsonu.08-team1
+
+commit 8b4b0049c150ad28ac70143318d5f1d13d02c6f3
+Author: Young, Connor <YoungCo@advisory.com>
+Date:   Fri Jul 31 10:03:53 2015 -0500
+
+    Add order confirmation to urls
+
+commit 465fec384eb266b8d2c227d5cb350141f71db4da
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Fri Jul 31 10:00:29 2015 -0500
+
+    Put a bandaid on database migration table drop catastrophe
+
+commit d9145b6e21ce56e823bf6363e85bc16195297779
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Fri Jul 31 09:33:20 2015 -0500
+
+    Fix database change
+
+commit 38a6d38a815a00acb3e6d8a17ed4484a88b99960
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Fri Jul 31 09:20:44 2015 -0500
+
+    Change database
+
+commit 2992627a4f8f6335a3257c427354c316c304f6f9
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Fri Jul 31 08:12:42 2015 -0500
+
+    Good god, Lemon. Ugly code
+
+commit 1421239b09cae68cdb44034cbc5d6301934c8a7a
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Fri Jul 31 07:43:17 2015 -0500
+
+    Set up for ratings and fix Camille's god awful spacing
+
+commit d49ad84e74415d8484b30b99ef6718ce7505467b
+Merge: 74ca8c1 4d9be55
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 19:04:46 2015 -0500
+
+    Merge branch 'master' of ssh://repo.advisory.com:7999/crimu/crimsonu.08-team1
+
+commit 74ca8c1e0c18098e622cc71ff201fec48ef2f8c6
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 18:55:13 2015 -0500
+
+    Make code look pretty.
+
+commit 4d9be557fdd950d81d903e15a23fd7489add7361
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 17:43:42 2015 -0500
+
+    Fix models
+
+commit 59e3f8f4887e01a943d04af4d131c5c9929bcc56
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 17:34:59 2015 -0500
+
+    Fix activation email.
+
+commit 04d602fd8359024498bb5f1f193110de724ca602
+Author: barmorec <barmorec@advisory.com>
+Date:   Thu Jul 30 17:21:35 2015 -0500
+
+    Matt is a jerk
+
+commit ce8137457eeb009382dfd4e8cb217be7a122fde8
+Merge: d41acad 0bdbf02
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 17:18:12 2015 -0500
+
+    Merge branch 'master' of ssh://repo.advisory.com:7999/crimu/crimsonu.08-team1
+
+commit d41acad764f2b4bb32bc02d22829d645e30aaa02
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 17:18:03 2015 -0500
+
+    Make things better
+
+commit 0bdbf02a368765837bd5c436876ec1a73b996c79
+Merge: 799d0ce a0bcd43
+Author: Green <greene@advisory.com>
+Date:   Thu Jul 30 17:05:23 2015 -0500
+
+    Merge branch 'master' of ssh://repo.advisory.com:7999/crimu/crimsonu.08-team1
+
+commit 799d0ce390f9dc08c65e1eae4e676ad7d13c548d
+Author: Green <greene@advisory.com>
+Date:   Thu Jul 30 17:03:39 2015 -0500
+
+    Twilio and demo cheating
+
+commit a0bcd439e29c2e7e123a10120541b9b28fd99e1f
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 16:52:04 2015 -0500
+
+    Fix spacing
+
+commit 7eff9d625fb17fa348b1613f3118b934019e3d75
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 16:49:48 2015 -0500
+
+    Salvage views
+
+commit 26dd880731481a0a2b172d076954acf6c6c39a4d
+Merge: fb354f3 20f388b
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 16:44:25 2015 -0500
+
+    Merge branch 'master' of ssh://repo.advisory.com:7999/crimu/crimsonu.08-team1
+
+commit fb354f373156e976a8c7e0864cc44fd9ba93e564
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 16:44:17 2015 -0500
+
+    Update views
+
+commit 20f388b4b8bcbfb7dee991ecbac6c32f81196f62
+Author: Young, Connor <YoungCo@advisory.com>
+Date:   Thu Jul 30 16:42:13 2015 -0500
+
+    Made changes to views and urls
+
+commit 1259e3a70a94ceeea353805950b55f836f10f674
+Author: barmorec <barmorec@advisory.com>
+Date:   Thu Jul 30 16:34:30 2015 -0500
+
+    Pushing last few files.
+
+commit f67945f96c3e7fa569517dae73c33a52b42af388
+Author: barmorec <barmorec@advisory.com>
+Date:   Thu Jul 30 16:34:12 2015 -0500
+
+    Fixing all of our broken shit. Everyone pull plz. kthnx
+
+commit b41d4fbade9ae9f1ff5d6bfbe24c485e05291fd3
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 16:21:24 2015 -0500
+
+    Reverting changes
+
+commit d3d6d342c1f6a438c457e8b728f6ee4362449461
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 16:16:41 2015 -0500
+
+    Revert stuff
+
+commit 7a380ad1510d13a41ed58255b7cc7f814529baa3
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 16:14:24 2015 -0500
+
+    Revert merge
+
+commit e3219bac3b8883c36d049efa1b95bb4e44f2a413
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 16:09:13 2015 -0500
+
+    Revert "Merge branch 'implementing-reviews'"
+    
+    This reverts commit bbd1805f425d2d7948e4cc2423cca67d1b2a570c, reversing
+    changes made to 5f068b24bb7b3a09efc50e5dd35e209a51600004.
+
+commit 1510c73c1c9b6f512f9958693ef5dd325d07dfd5
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 16:07:21 2015 -0500
+
+    Revert "Added stuff"
+    
+    This reverts commit e7dbc482781970200c61f66b5e0ee1dc0a81daa1.
+
+commit f0a78339da6828dac2dd07e5764ec9c257224bd5
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 16:07:07 2015 -0500
+
+    Revert "Don't add pyc files."
+    
+    This reverts commit 6df1ee1b176b8f571a27a7ca8be1ab60dca68d7d.
+
+commit 6df1ee1b176b8f571a27a7ca8be1ab60dca68d7d
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 15:43:31 2015 -0500
+
+    Don't add pyc files.
+
+commit e7dbc482781970200c61f66b5e0ee1dc0a81daa1
+Author: Young, Connor <YoungCo@advisory.com>
+Date:   Thu Jul 30 15:38:43 2015 -0500
+
+    Added stuff
+
+commit bbd1805f425d2d7948e4cc2423cca67d1b2a570c
+Merge: 5f068b2 4e6eb9b
+Author: Young, Connor <YoungCo@advisory.com>
+Date:   Thu Jul 30 14:54:03 2015 -0500
+
+    Merge branch 'implementing-reviews'
+    
+    Conflicts:
+        CrimsonWebApp/WebApp/WebApp/settings.pyc
+        CrimsonWebApp/WebApp/db.sqlite3
+        CrimsonWebApp/WebApp/truck_queue/urls.py
+        CrimsonWebApp/WebApp/truck_queue/views.py
+    
+    Took care of merge conflicts
+
+commit 4e6eb9bba1b89d1c38ffc81cf45cb82c56aaae60
+Author: Young, Connor <YoungCo@advisory.com>
+Date:   Thu Jul 30 14:44:19 2015 -0500
+
+    no message
+
+commit 5f068b24bb7b3a09efc50e5dd35e209a51600004
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 14:41:49 2015 -0500
+
+    Formatting
+
+commit a49592fb09987f290be3750d7724f7289fda0da5
+Author: Young, Connor <YoungCo@advisory.com>
+Date:   Thu Jul 30 14:38:44 2015 -0500
+
+    Pushed current progress.
+
+commit 50b4cce07c68e046e1589f032224fa6dd2be67e5
+Author: Green <greene@advisory.com>
+Date:   Thu Jul 30 13:39:46 2015 -0500
+
+    Twilio integration
+
+commit c1da803efd89bfbce2ff8b072e850dd4c0185403
+Merge: 68342f6 0dc8010
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 13:29:42 2015 -0500
+
+    Merge branch 'master' of ssh://repo.advisory.com:7999/crimu/crimsonu.08-team1
+
+commit 68342f64f97b77fec5642015770e5d23d4219fa1
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 13:29:31 2015 -0500
+
+    Set default strikes to 0.
+
+commit 0dc8010581115bf27a59777e1464d9bd998a2eaf
+Merge: 963c947 2393ae8
+Author: barmorec <barmorec@advisory.com>
+Date:   Thu Jul 30 13:01:30 2015 -0500
+
+    Merge branch 'master' of ssh://repo.advisory.com:7999/crimu/crimsonu.08-team1
+
+commit 963c947fbba9e55c9793bfa22fb4475e0fb51621
+Author: barmorec <barmorec@advisory.com>
+Date:   Thu Jul 30 13:01:08 2015 -0500
+
+    Updated contact page, slowed down carousel, fixed carousel, added order confirmation
+
+commit 2393ae88a016560950ed744835673c2277ba0631
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 12:51:46 2015 -0500
+
+    Pass truck to home
+
+commit d6bd789c87bbbe827a7632b69fabfffd4f80ca33
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 12:46:02 2015 -0500
+
+    Add strikes to employee table, don't let them log in if they have 3.
+
+commit 7fd39b63256d4c9ea9e70e68ac4fff5bca1fddd6
+Merge: ae845ed 96db28e
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 12:31:24 2015 -0500
+
+    Merge branch 'master' of ssh://repo.advisory.com:7999/crimu/crimsonu.08-team1
+
+commit ae845ed7544cc49c81e5a784bdff004b3f84380d
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 12:31:00 2015 -0500
+
+    Load staticfiles in home, add jquery libs to base
+
+commit 96db28ecd867fb22a2bb1e1a4006fc4e98f8ec3d
+Merge: 498306b e44a9d0
+Author: barmorec <barmorec@advisory.com>
+Date:   Thu Jul 30 12:17:25 2015 -0500
+
+    Merge branch 'master' of ssh://repo.advisory.com:7999/crimu/crimsonu.08-team1
+
+commit 498306b105cc716ef78214624d84d914e610cbf9
+Author: barmorec <barmorec@advisory.com>
+Date:   Thu Jul 30 12:17:10 2015 -0500
+
+    Updating contact and created order confirmation page
+
+commit e44a9d00268b7fe2614bf5d889eeb2dc3b233aa3
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 12:12:46 2015 -0500
+
+    Move references to base
+
+commit 3818caf1c23da674124aaec9b05e2b377c121829
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 11:22:53 2015 -0500
+
+    Preserve fields for registration errors
+
+commit 4fbb7c4a2e38000a770e5172e4ddc69c638dfe42
+Merge: 2c7dac2 bbd3a5c
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 11:13:28 2015 -0500
+
+    Merge branch 'master' of ssh://repo.advisory.com:7999/crimu/crimsonu.08-team1
+
+commit bbd3a5c43501bed35bceb0415beb43c916af50a1
+Author: barmorec <barmorec@advisory.com>
+Date:   Thu Jul 30 11:12:43 2015 -0500
+
+    Registration fixes
+
+commit 2c7dac2d3f567ae2c67eb4231741fda8586f1019
+Merge: 917b3b3 3b4a00b
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 10:54:31 2015 -0500
+
+    Merge branch 'master' of ssh://repo.advisory.com:7999/crimu/crimsonu.08-team1
+
+commit 917b3b3e97c881a7288c433566cadd6831449586
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 10:51:42 2015 -0500
+
+    Change home page url, finish registration, activation, and authentication.
+
+commit 3b4a00b01d71e47329a1a1dd2cf134093ebbca44
+Author: barmorec <barmorec@advisory.com>
+Date:   Thu Jul 30 10:48:03 2015 -0500
+
+    Updating registration shit
+
+commit 302fced2d767fefdbe7433586658ed83e5ace363
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 09:58:36 2015 -0500
+
+    Remove binaries and fix merge changes
+
+commit 48d9d97fcd5bc66499e2df7aca9d92e6e1fcc539
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Thu Jul 30 09:50:56 2015 -0500
+
+    Stashing changes
+
+commit f23f6b9a1078227488dd7a0d8e52feb7c9303745
+Author: Young, Connor <YoungCo@advisory.com>
+Date:   Thu Jul 30 09:20:56 2015 -0500
+
+    fixing merge conflicts
+
+commit 461a03b062157114d9136061a89d93962f1cd2c8
+Merge: 8221028 c0d0c02
+Author: Young, Connor <YoungCo@advisory.com>
+Date:   Thu Jul 30 09:15:06 2015 -0500
+
+    Deleted some files and tried to merge
+
+commit 8221028c3f27916fe1ed07357d00ac3d43b9e388
+Author: Young, Connor <YoungCo@advisory.com>
+Date:   Thu Jul 30 09:00:52 2015 -0500
+
+    asdf
+
+commit c0d0c02e926b29f76bf4827653048e020d8f842a
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Wed Jul 29 17:04:05 2015 -0500
+
+    Activation email and assorted changes
+
+commit 3e09785f2129f6f679da252ef0a3d988f99475ad
+Author: barmorec <barmorec@advisory.com>
+Date:   Wed Jul 29 17:02:21 2015 -0500
+
+    Things!
+
+commit 201c6d4a9cbed41c1df48a4b94eb59f2087cd946
+Author: barmorec <barmorec@advisory.com>
+Date:   Wed Jul 29 16:46:52 2015 -0500
+
+    xxx
+
+commit 2ce7d974c26c53ee10788c9f5d5d14cbe45ac414
+Author: barmorec <barmorec@advisory.com>
+Date:   Wed Jul 29 16:46:33 2015 -0500
+
+    derp
+
+commit 7db1a4bee60361c7b7705d08cbdab852162e95bb
+Author: Young, Connor <YoungCo@advisory.com>
+Date:   Wed Jul 29 16:38:46 2015 -0500
+
+    New changes to html with the entrees and sides
+
+commit 8db6dd7002abc78a50d029e528e9f09f784e5ce5
+Author: barmorec <barmorec@advisory.com>
+Date:   Wed Jul 29 15:03:34 2015 -0500
+
+    Getting ready for merge
+
+commit 2e2c7e35c4d1a7c2c17aecc3b1f4b21d29e502fe
+Author: barmorec <barmorec@advisory.com>
+Date:   Wed Jul 29 14:12:34 2015 -0500
+
+    Committing pages and things and stuff fugue
+
+commit a5016f41b25de976d1f7a07cc883c9807df7cd12
+Author: barmorec <barmorec@advisory.com>
+Date:   Wed Jul 29 11:44:20 2015 -0500
+
+    shop
+
+commit cbfa2ca9c730e06fd7ad8d5d997918ccd52ad808
+Author: Barmore <BarmoreC@advisory.com>
+Date:   Wed Jul 29 11:07:28 2015 -0500
+
+    Working on pages - Camille
+
+commit 7076d753588b0c8bf6480cbd30763aa291cbba8d
+Author: Young, Connor <YoungCo@advisory.com>
+Date:   Tue Jul 28 16:36:51 2015 -0500
+
+    Made changes to javascript on menu page.
+
+commit 7d78485b221eb625e3e8342afa155a8de6e68821
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Mon Jul 27 14:55:51 2015 -0500
+
+    Auth and registration
+
+commit b4966e5e464707ff147632ec44b710da5d98e9cd
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Mon Jul 27 14:01:20 2015 -0500
+
+    Authentication figured out.
+
+commit 7cf648b035ee29abaa43179b25fbcd2e1a6f74eb
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Mon Jul 27 09:07:36 2015 -0500
+
+    Add all registration forms and other super fun stuff! Yippee! As of sometime in the last two days, can add users to the system. Working on authentication.
+
+commit 145aaa7abb58b8239d59c5de85760c77472928d0
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Sun Jul 26 14:53:23 2015 -0500
+
+    Fix stupid shit. Registration still in the works.
+
+commit c2e1f8dd8dfe07568bf7cb4a07dd3eb62bfef38c
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Sat Jul 25 22:19:33 2015 -0500
+
+    Move app reference.
+
+commit 94dbfbbfdadc067b686df960cae540bf4ad64fe3
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Sat Jul 25 21:39:07 2015 -0500
+
+    Add database since we don't have a server, and this isn't ever updated. Now you can test shit without having to add all of the foodses.
+
+commit 913c76f091ae881dd399db1d5eaebc92ee70ad58
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Sat Jul 25 21:15:52 2015 -0500
+
+    Working on registration and login
+
+commit 6ebb10c2180646e8acdbd1f4926aaba40d257025
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Sat Jul 25 12:47:48 2015 -0500
+
+    Front end framework working, need to get a list of menu items based on the day.
+
+commit d20b854c65015ef1aa48824f3d9adcfac819f14a
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Tue Jul 14 08:51:58 2015 -0500
+
+    update README
+
+commit 3c5c0e58a299710b8d2faf1695f43f29151b1986
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Wed Jul 1 10:41:54 2015 -0500
+
+    Try to ignore all pyc files
+
+commit 0744d3051603efb1219b60c3f90f0ff25b9d3ea2
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Wed Jul 1 10:31:11 2015 -0500
+
+    Add a whole bunch of stuff. Get admin to work as well as index/landing page with default text. Implement generic base page for inheritance - waiting on design
+
+commit f6b542aa234cbcb8e11f70d052a6af42c1a07be8
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Wed Jul 1 09:02:39 2015 -0500
+
+    Creating the database actually works, now. Apparently testing helps. #YOLOSWAG
+
+commit 54bebac833e97045e58f55b21ecba8a7ce1ecb2f
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Tue Jun 30 16:28:14 2015 -0500
+
+    Add some more tables. Just for fun.
+
+commit 1c4eb97ccf2c266b4e95e13f2ad80d64db5fb891
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Tue Jun 30 16:19:10 2015 -0500
+
+    Initial TruckQueue framework setup. Added a table for trucks, mostly just stashing changes.
+
+commit 9b216128486f590521bf0b5889ae02569ad7ea02
+Author: Rose, Matthew <rosem@advisory.com>
+Date:   Mon Jun 29 12:53:24 2015 -0500
+
+    Initialize repo
